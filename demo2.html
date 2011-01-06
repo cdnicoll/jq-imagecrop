@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	    <!-- ==== CREATED ON 02-10-10_09-04 ==== -->
+		<title>jQuery Image Crop Plugin</title>
+
+		<!-- ZERO OUT CSS -->
+		<link rel="stylesheet" type="text/css" href="http://localhost/_common_libraries/zeroOut.css">
+
+		<!-- CORE jQUERY LIBRARIES -->
+		<script type="text/javascript" src="http://localhost/_common_libraries/jquery.js"></script>
+        <script type="text/javascript" src="jquery.imagecrop.js"></script>
+        
+        <!-- ===== JS ===== -->
+        <script type="text/javascript" charset="utf-8">
+            var jQ = jQuery.noConflict();
+            jQ(document).ready(function()
+            {
+                jQ('.crop').imageCrop();
+            });
+        </script>
+        
+        <!-- ===== CSS ===== -->
+        <style type="text/css">
+            /* start css */
+        </style>
+	</head>
+	<body>
+        <img src="images/longImage.jpg" class="crop" /></li>
+	</body>
+</html>
